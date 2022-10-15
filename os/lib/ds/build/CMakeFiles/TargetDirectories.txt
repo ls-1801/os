@@ -1,0 +1,4 @@
+/home/lukas/uni/BSPr/lib/ds/build/CMakeFiles/edit_cache.dir
+/home/lukas/uni/BSPr/lib/ds/build/CMakeFiles/test.dir
+/home/lukas/uni/BSPr/lib/ds/build/CMakeFiles/rebuild_cache.dir
+/home/lukas/uni/BSPr/lib/ds/build/CMakeFiles/runUnitTests.dir

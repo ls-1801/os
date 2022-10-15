@@ -1,0 +1,11 @@
+## Blatt 5
+- [x] die MMU einschalten
+    - os/system/mmu.c setzt die nötigen Register und initialisiert die L1 Table
+- [x] Linkerscript anpassen:
+    - Kernel von user getrennt
+- [x] Berechtigungen für die Segmente in der L1 Anlegen (wieder mmu.c)
+- [x] L1 Tabelle erstellen
+    - set_mapping() erstellt ein mapping.
+- [x] ein nicht 1:1 Mapping: UART, IR und der Timer wurden umgemappt.
+- [x] Prefetch Handler existiert in os/system/exceptions.c
+- [x] Demo Programm in user/user_thread.c und os/system/uart_system_controller.c

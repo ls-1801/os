@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/runUnitTests.dir/static_linked_list_test.cpp.o CMakeFiles/runUnitTests.dir/static_linked_list.c.o CMakeFiles/runUnitTests.dir/static_heap.c.o  -o runUnitTests -rdynamic /usr/local/lib/libgtest.a /usr/local/lib/libgtest_main.a /usr/local/lib/libgtest.a -lpthread 

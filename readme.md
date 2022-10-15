@@ -1,0 +1,29 @@
+## Aufgabe 2
+- [x] Stackpointer für alle Modi setzen 
+    - start.S setzt alle SP
+- [x] IVT erstellen und Addresse in VBAR schreiben
+    - ivt.S ist die IVT und start.S schreibt die IVT Addresse ins VBAR.
+- [x] Handler für Ausnahmen.
+    - ASM Handler sind in system/interrupt_trampolines.S
+    - C Handler für Exceptions, Abort und SVC befinden sich in system/exceptions.c
+    - C Handler für IRQ befinden sich in interrupts.c
+    - debugutils.h enthält die Ausgabe für die Schnappschüsse.
+- [x] Intialisier Timer.
+    - Timer ist einer seits in driver/timer.c und in lib/timer.c
+        - driver enthält das register und set_methoden
+        - lib die implementierung für einen simplen timer.
+- [x] Interrupt Register
+    - system/interrupts.c enthält die Implementierung für das verteilen der Interrupts auf die entsprechenden Handler.
+    - system/system.h enthält methode um IRQ an und aus zuschalten.
+    - driver implementierung für uart und timer enthalten methoden um IRQ an und auszuschalten.
+- [x] Initialisieren Interrupts
+    - die jeweiligen interrupts werden bei der Erstbenutzung von timer und uart initialisiert.
+- [x] d toggle Debug mode für IRQ.
+- [x] Aktiviere UART interrupts
+    - driver/uart/uart_io.c in init method
+- [x] Lesen mit interrupts.
+    - Bei einem RX IRQ wird das DATA register in den rxBuffer kopiert.
+    - getc pollt den rxBuffer.
+- [x] e Programm mit Timer Interrupts
+    - in kernel.c
+- [x] c Register Checker
